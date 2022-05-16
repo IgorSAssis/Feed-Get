@@ -3,10 +3,11 @@ import cors from "cors";
 
 import { routes } from "./routes";
 
+const app_port = process.env.PORT || 3333;
 const app = express();
 
 app.use(cors()); 
 app.use(express.json());
 app.use(routes);
 
-app.listen(3333, () => console.log(`Server listening at port 3333`));
+app.listen(app_port, () => console.log(`HTTP server running!`));
