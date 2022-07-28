@@ -8,8 +8,10 @@ module.exports = {
           300: "#996DFF",
           500: "#8257e6",
         },
+        surfacePrimary: "#18181B",
         surfaceSecondary: "#27272A",
         whiteWithOpacity: "rgba(217, 217, 217, 0.15)",
+        stroke: "#52525B",
         light: {
           header: {
             bg: "#fcfcfc",
@@ -27,7 +29,7 @@ module.exports = {
       },
       fontFamily: {
         'ubuntu': ['Ubuntu', 'sans-serif']
-      }
+      },
     },
   },
   plugins: [require("@tailwindcss/forms"), require("tailwind-scrollbar")],
