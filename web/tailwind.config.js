@@ -3,6 +3,9 @@ module.exports = {
   darkMode: "class",
   theme: {
     extend: {
+      gridTemplateColumns: {
+        feedbacks: "repeat(auto-fit, minmax(300px, 1fr))"
+      },
       colors: {
         brand: {
           300: "#996DFF",

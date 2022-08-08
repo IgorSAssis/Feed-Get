@@ -5,9 +5,9 @@ import { Widget } from "./components/Widget";
 
 export function App() {
   return (
-    <div className="w-screen h-screen pt-14 flex align-center justify-around">
+    <div className="w-screen h-screen pt-14">
       <Header />
-      <main className="w-[90%] pt-8 pb-8 grid grid-cols-5 gap-3 grid-rows-3">
+      <main className="w-[90%] m-auto pt-8 pb-8 gap-4 grid grid-cols-feedbacks">
         <Feedback />
         <Feedback />
         <Feedback />
@@ -16,6 +16,13 @@ export function App() {
         <Feedback />
         <Feedback />
         <Feedback />
+        <Feedback />
+        <Feedback />
+        <Feedback />
+        <Feedback />
+        <Feedback />
+        <Feedback />
+        
       </main>
       <Widget />
     </div>
