@@ -30,5 +30,5 @@ routes.get("/feedbacks", async (req: Request, res: Response) => {
 
     const feedbacks = await indexFeedbackUseCase.execute();
 
-    return res.status(200).send({ feedbacks });
+    return res.status(200).send(feedbacks);
 });
