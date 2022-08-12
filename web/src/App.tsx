@@ -1,4 +1,3 @@
-import { Fragment } from "react";
 import { Feedback } from "./components/Feedback";
 import { Header } from "./components/Header";
 import { Widget } from "./components/Widget";
@@ -22,7 +21,6 @@ export function App() {
         <Feedback />
         <Feedback />
         <Feedback />
-        
       </main>
       <Widget />
     </div>
