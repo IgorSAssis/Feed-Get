@@ -105,5 +105,5 @@ $ npm run dev
 
 <a name="License" />
 
-## :page_facing_up: Licenses:
+## :page_facing_up: Licenses
 This project is under the  [MIT license](https://github.com/IgorSAssis/Feed-Get/blob/master/LICENSE)
