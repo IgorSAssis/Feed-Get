@@ -63,9 +63,11 @@
 
 ## 📋 How to run
 
-First of all, clone this project
+First of all, clone this project and install commitlint dependencies
 ```shell
 $ git clone https://github.com/IgorSAssis/Feed-Get
+$ cd Feed-Get
+$ npm install
 ```
 
 ### 🖥 Server
