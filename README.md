@@ -14,7 +14,7 @@
 > :clipboard: A project designed to help people collect feedbacks from their users :clipboard:
 
 ## :pushpin: Table of contents
-* [Screenshots:](#Screenshots)
+* [Screenshots](#Screenshots)
 * [Technologies](#Technologies)
 * [Deployment](#Deployment)
 * [How to run](#HowToRun)
@@ -73,7 +73,7 @@ $ git clone https://github.com/IgorSAssis/Feed-Get
 $ cd server
 $ npm install
 ```
-Create a **.env** file and add the following configurations:
+Create a **.env** file and add the following settings:
 ```shell
 DATABASE_URL=postgresql://<USER>:<PASSWORD>@localhost:5432/feedbacks
 ```
@@ -93,7 +93,7 @@ $ cd web
 $ npm install
 ```
 
-Create a **.env.local** file with following configurations:
+Create a **.env.local** file and add the following settings:
 ```shell
 VITE_API_URL=http://localhost:3333
 ```
